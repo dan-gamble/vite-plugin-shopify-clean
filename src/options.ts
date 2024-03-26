@@ -13,6 +13,6 @@ export interface ResolvedVitePluginShopifyCleanOptions {
 export const resolveOptions = (
   options: VitePluginShopifyCleanOptions,
 ): ResolvedVitePluginShopifyCleanOptions => ({
-  manifestFileName: typeof options.manifestFileName !== 'undefined' ? options.manifestFileName : 'manifest.json',
+  manifestFileName: typeof options.manifestFileName !== 'undefined' ? options.manifestFileName : '.vite/manifest.json',
   themeRoot: typeof options.themeRoot !== 'undefined' ? path.normalize(options.themeRoot) : './',
 })
