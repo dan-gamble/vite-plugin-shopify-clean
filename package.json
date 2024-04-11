@@ -30,7 +30,7 @@
     "lint": "eslint **/*.{t,j}s --fix"
   },
   "peerDependencies": {
-    "vite": "^4.0.4"
+    "vite": "^5.0.0"
   },
   "dependencies": {
     "chokidar": "^3.5.3",
